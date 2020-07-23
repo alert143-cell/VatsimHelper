@@ -13,6 +13,13 @@
 
 <body style="background-color:grey">
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems, options);
+        });
+    </script>
+
     <nav>
         <div class="nav-wrapper grey darken-4">
             <ul class="right hide-on-med-and-down">
